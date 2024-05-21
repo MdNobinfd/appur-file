@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '../../assets/logo.png'
 import './Menu.css';
+import { Link } from 'react-router-dom';
  function Menu() {
   return (
    <>
@@ -14,12 +15,18 @@ import './Menu.css';
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav ">
           <Nav className=" star mx-auto">
-            <Nav.Link href="/">Home</Nav.Link>
+            <Link to="/">Home</Link>
+            <Link to="/about">About Us</Link>
+            <Link to="/feature">Feature</Link>
+            <Link to="/pricing">Pricing</Link>
+            <Link to="/faq">FAQ</Link>
+            <Link to="/blog">Blog</Link>
+            {/* <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About Us</Nav.Link>
             <Nav.Link href="/feature">Feature</Nav.Link>
             <Nav.Link href="/pricing">Pricing</Nav.Link>
             <Nav.Link href="/faq">FAQ</Nav.Link>
-            <Nav.Link href="/blog">Blog</Nav.Link>
+            <Nav.Link href="/blog">Blog</Nav.Link> */}
             <Button className="bttn"variant="outline-light"><a href="/contact">Contact Us</a></Button>
           </Nav>
         </Navbar.Collapse>
