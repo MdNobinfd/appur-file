@@ -15,12 +15,12 @@ import { Link } from 'react-router-dom';
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav ">
           <Nav className=" star mx-auto">
-            <Link to="/">Home</Link>
-            <Link to="/about">About Us</Link>
-            <Link to="/feature">Feature</Link>
-            <Link to="/pricing">Pricing</Link>
-            <Link to="/faq">FAQ</Link>
-            <Link to="/blog">Blog</Link>
+            <Link className='nuwo' to="/">Home</Link>
+            <Link className='nuwo' to="/about">About Us</Link>
+            <Link className='nuwo' to="/feature">Feature</Link>
+            <Link className='nuwo' to="/pricing">Pricing</Link>
+            <Link className='nuwo' to="/faq">FAQ</Link>
+            <Link className='nuwo' to="/blog">Blog</Link>
             {/* <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About Us</Nav.Link>
             <Nav.Link href="/feature">Feature</Nav.Link>

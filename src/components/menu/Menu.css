@@ -3,8 +3,8 @@
   
 }
 .star a{
-    color:#fff !important;
-
+  padding: 0px 20px;
+  color: #fff;
 }
  Button.bttn{
     border-radius: 30px;
