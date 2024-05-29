@@ -27,7 +27,7 @@ import { Link } from 'react-router-dom';
             <Nav.Link href="/pricing">Pricing</Nav.Link>
             <Nav.Link href="/faq">FAQ</Nav.Link>
             <Nav.Link href="/blog">Blog</Nav.Link> */}
-            <Button className="bttn"variant="outline-light"><a href="/contact">Contact Us</a></Button>
+            <Button className="bttn"variant="outline-light"><a href="/contact">Contact</a></Button>
           </Nav>
         </Navbar.Collapse>
       </Container>

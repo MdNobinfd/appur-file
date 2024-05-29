@@ -1,5 +1,8 @@
  .naw{
     background-color: rgb(28, 30, 83);
+    position: fixed !important;
+    width: 100%;
+    z-index: 999;
   
 }
 .star a{
